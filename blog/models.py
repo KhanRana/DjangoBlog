@@ -4,7 +4,8 @@ from cloudinary.models import CloudinaryField
 
 
 STATUS = ((0, 'Draft'), (1, 'Published'))
-# Create your models here.
+
+# models here.
 
 
 class Post(models.Model):
